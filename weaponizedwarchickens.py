@@ -21,6 +21,6 @@ def main():
     print('We understand. Disarming...')
     img = Image.open('/Weaponized war chickens/assets/weaponizedwarchickensdisarming.png')
     img.show()
-  if ipt != 'Y' or ipt == 'yes' or ipt == 'YES' or ipt == 'y' or 'N' or ipt == 'no' or ipt == 'NO' or ipt == 'n':
+  if ipt != 'Y' or ipt != 'yes' or ipt != 'YES' or ipt != 'y' or 'N' or ipt != 'no' or ipt != 'NO' or ipt != 'n':
     print('We dont understand the command. It was a simple yes or no question.')
 main()
